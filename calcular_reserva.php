@@ -33,7 +33,7 @@ $preu_amb_iva = $preu_sense_iva + $iva;
   <title>Detalls de la Reserva</title>
 </head>
 <body>
-  <h1>Detalls de la Reserva GRUP8</h1>
+  <h1>Detalls de la Reserva GRUP8 Projecte</h1>
   <p><strong>Nom i Cognoms:</strong> <?php echo $nom; ?></p>
   <p><strong>Número de VISA:</strong> <?php echo $visa; ?></p>
   <p><strong>Preu sense IVA:</strong> €<?php echo number_format($preu_sense_iva, 2); ?></p>
